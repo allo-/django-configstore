@@ -6,7 +6,7 @@ from django.core.serializers.json import DjangoJSONEncoder
 from django.core.exceptions import ObjectDoesNotExist
 from django.db.models.query import QuerySet
 from django.db import models
-from django.utils import simplejson
+import simplejson
 
 from decimal import Decimal
 
